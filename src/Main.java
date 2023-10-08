@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] agrs) {
-        int age;
-        age = 18;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("I am " + age + " years old");
+        System.out.println("What is your name ?");
+        String name = scanner.nextLine();
+
+        System.out.println("Hello " + name);
     }
 }
